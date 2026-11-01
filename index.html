@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rakib — Laravel developer building modern, secure and scalable web applications.">
+  <meta name="theme-color" content="#090b18">
+  <title>Code with Rakib | Laravel Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/responsive.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <aside class="sidebar" aria-label="Quick navigation">
+    <a class="side-brand" href="#home" aria-label="Rakib home"><i data-lucide="code-2"></i></a>
+    <nav class="side-links">
+      <a class="side-link active" href="#home" aria-label="Home"><i data-lucide="house"></i></a>
+      <a class="side-link" href="#about" aria-label="About"><i data-lucide="user-round"></i></a>
+      <a class="side-link" href="#portfolio" aria-label="Portfolio"><i data-lucide="layout-grid"></i></a>
+      <a class="side-link" href="#faq" aria-label="FAQ"><i data-lucide="circle-help"></i></a>
+      <a class="side-link" href="#contact" aria-label="Contact"><i data-lucide="mail"></i></a>
+    </nav>
+    <div class="side-social">
+      <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+      <a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+    </div>
+  </aside>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home"><span class="brand-icon"><i data-lucide="code-2"></i></span> RAKIB<span class="brand-dot">.</span></a>
+      <button class="mobile-menu" id="mobileMenu" aria-label="Toggle navigation" aria-expanded="false"><i data-lucide="menu"></i></button>
+      <nav class="main-nav" id="mainNav">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link" href="#faq">FAQ</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme"><i data-lucide="sun"></i><span></span><i data-lucide="moon"></i></button>
+        <a class="btn btn-small btn-primary cv-link" href="./assets/rakib-cv.pdf" download><i data-lucide="download"></i> Download CV</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot"></span> Available for opportunities</span>
+        <p class="hello">Hello, I'm</p>
+        <h1>Rakib<span class="gradient-text">.</span><br><span class="role-line">Laravel <span id="typedRole">Developer</span><span class="cursor">|</span></span></h1>
+        <p class="hero-description">I build modern, secure and scalable web applications with clean code and thoughtful user experiences.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">Explore my work <i data-lucide="arrow-up-right"></i></a>
+          <a href="./assets/rakib-cv.pdf" download class="btn btn-outline"><i data-lucide="download"></i> Download CV</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>Laravel</strong><span>Backend development</span></div>
+          <div><strong>Clean UI</strong><span>Responsive interfaces</span></div>
+          <div><strong>Reliable</strong><span>Problem solving</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-glow"></div>
+        <img src="./assets/rakib-coding-illustration.webp" alt="Illustration of a young developer coding at a computer desk">
+        <div class="floating-card code-card"><span class="code-dot"></span> Building something great</div>
+        <div class="floating-card stack-card"><i data-lucide="terminal"></i><span>PHP · Laravel · MySQL</span></div>
+      </div>
+      <a class="scroll-hint" href="#about"><span class="mouse"></span> Scroll to explore</a>
+    </section>
+
+    <section class="section section-shell" id="about">
+      <div class="section-heading"><span class="section-kicker">A little introduction</span><h2>About <span class="gradient-text">me</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy panel">
+          <h3>Turning ideas into useful digital products.</h3>
+          <p>I'm Rakib, a web developer focused on the Laravel ecosystem. I enjoy transforming ideas into practical web applications — from planning database structures and building APIs to creating responsive interfaces.</p>
+          <p>I value readable code, performance, security and clear communication. I'm always learning and improving my craft with every project.</p>
+          <a href="#contact" class="text-link">Let's talk about your project <i data-lucide="arrow-up-right"></i></a>
+        </div>
+        <div class="about-facts">
+          <div class="fact-card"><i data-lucide="code-2"></i><h4>Backend first</h4><p>Laravel, PHP, REST APIs and database design.</p></div>
+          <div class="fact-card"><i data-lucide="monitor-smartphone"></i><h4>Responsive by design</h4><p>Interfaces that work across screen sizes.</p></div>
+          <div class="fact-card"><i data-lucide="shield-check"></i><h4>Quality minded</h4><p>Maintainable code and thoughtful validation.</p></div>
+          <div class="fact-card"><i data-lucide="rocket"></i><h4>Always learning</h4><p>Exploring tools and better ways to build.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-shell" id="skills">
+      <div class="section-heading"><span class="section-kicker">What I work with</span><h2>My <span class="gradient-text">toolkit</span></h2></div>
+      <div class="skills-grid">
+        <div class="skill"><div class="skill-top"><span>PHP</span><span>Backend</span></div><div class="skill-track"><span style="width:85%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>Laravel</span><span>Backend</span></div><div class="skill-track"><span style="width:88%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>MySQL</span><span>Database</span></div><div class="skill-track"><span style="width:80%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>HTML & CSS</span><span>Frontend</span></div><div class="skill-track"><span style="width:90%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>JavaScript</span><span>Frontend</span></div><div class="skill-track"><span style="width:72%"></span></div></div>
+        <div class="skill"><div class="skill-top"><span>Git</span><span>Tools</span></div><div class="skill-track"><span style="width:75%"></span></div></div>
+      </div>
+      <p class="note">Skill bars are illustrative. Update the levels to reflect your actual experience.</p>
+    </section>
+
+    <section class="section section-shell" id="portfolio">
+      <div class="section-heading heading-row"><div><span class="section-kicker">Selected work</span><h2>Featured <span class="gradient-text">projects</span></h2></div><span class="muted">A few things I've been building</span></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-visual visual-purple"><i data-lucide="shopping-bag"></i><span>01 / E-COMMERCE</span></div><div class="project-info"><h3>E-commerce platform</h3><p>A store concept with product management, cart and order workflows.</p><div class="tags"><span>Laravel</span><span>MySQL</span><span>JavaScript</span></div><a href="#contact" class="project-link">Discuss a similar project <i data-lucide="arrow-up-right"></i></a></div></article>
+        <article class="project-card"><div class="project-visual visual-blue"><i data-lucide="chart-no-axes-combined"></i><span>02 / DASHBOARD</span></div><div class="project-info"><h3>Admin dashboard</h3><p>A clean dashboard concept for managing users, content and reports.</p><div class="tags"><span>Laravel</span><span>REST API</span><span>Charts</span></div><a href="#contact" class="project-link">Discuss a similar project <i data-lucide="arrow-up-right"></i></a></div></article>
+        <article class="project-card"><div class="project-visual visual-pink"><i data-lucide="book-open"></i><span>03 / CONTENT</span></div><div class="project-info"><h3>Blog & CMS</h3><p>A content management concept with categories, publishing and search.</p><div class="tags"><span>PHP</span><span>Laravel</span><span>MySQL</span></div><a href="#contact" class="project-link">Discuss a similar project <i data-lucide="arrow-up-right"></i></a></div></article>
+      </div>
+      <p class="note">These are portfolio examples/concepts. Replace them with your real projects and live repository links.</p>
+    </section>
+
+    <section class="section section-shell" id="faq">
+      <div class="section-heading"><span class="section-kicker">Good to know</span><h2>Frequently asked <span class="gradient-text">questions</span></h2></div>
+      <div class="faq-list">
+        <details class="faq-item"><summary>What kind of websites can you build?<span class="faq-plus"></span></summary><p>I can help build business websites, custom dashboards, CRUD applications, REST APIs, blogs and e-commerce experiences using Laravel and modern frontend tools.</p></details>
+        <details class="faq-item"><summary>Do you work with existing Laravel projects?<span class="faq-plus"></span></summary><p>Yes. I can help with feature development, bug fixes, maintenance, API integration and improving existing code. Share the project details to discuss scope.</p></details>
+        <details class="faq-item"><summary>Can you make a website responsive?<span class="faq-plus"></span></summary><p>Yes. Responsive layouts for mobile, tablet and desktop are part of the design and development process.</p></details>
+        <details class="faq-item"><summary>How can I get a project estimate?<span class="faq-plus"></span></summary><p>Send a short description of your goals, required features, timeline and any reference links through the contact section. I'll be able to discuss the next steps.</p></details>
+      </div>
+    </section>
+
+    <section class="section section-shell" id="contact">
+      <div class="contact-panel">
+        <div><span class="section-kicker">Have an idea?</span><h2>Let's build something <span class="gradient-text">great.</span></h2><p>Tell me about your project, goals or collaboration idea.</p></div>
+        <a class="btn btn-primary" href="mailto:hello@example.com?subject=Project%20inquiry">Get in touch <i data-lucide="send"></i></a>
+      </div>
+      <div class="contact-meta"><span><i data-lucide="mail"></i> hello@example.com</span><span><i data-lucide="map-pin"></i> Bangladesh</span><span>Open to meaningful projects</span></div>
+    </section>
+  </main>
+
+  <footer class="footer section-shell"><a class="brand" href="#home">RAKIB<span class="brand-dot">.</span></a><p>Designed & built with care · <span id="year"></span></p><a href="#home" class="back-top" aria-label="Back to top"><i data-lucide="arrow-up"></i></a></footer>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
